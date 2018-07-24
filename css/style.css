@@ -1,0 +1,430 @@
+html {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #707070;
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-size: 500%;
+    color: black;
+    margin-bottom: 0%;
+}
+h2{
+    margin-top: 0%;
+    font-size: 300%;
+    font-weight:normal;
+}
+h3{
+    margin-left: 0%;
+    font-size: 250%;
+    margin-top: 0%;
+    font-weight:normal;
+    color:black;
+    margin-bottom: 0%;
+}
+h4{
+    margin-left: 0%;
+    font-size: 175%;
+    margin-top: 0%;
+    font-weight:normal;
+}
+p{
+    line-height: 1.75;
+    margin-left: 0%;
+    padding-left: 0%;
+}
+
+ul{
+    line-height:1.8;
+}
+
+
+section{
+    padding-top: 2%;
+    margin-bottom: 5%;
+}
+
+.right{
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+.indent{
+    margin-left: 2%;
+}
+.h1sideways{
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+    /* IE */
+    -ms-transform: rotate(-90deg);
+    /* Opera */
+    -o-transform: rotate(-90deg);
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    font-size: 500%;
+    float: left;
+    font-weight: bold;
+    color:black;
+
+    margin: 0;
+    width: 0;
+    white-space: nowrap;
+    position: absolute;
+    text-align: left;
+    transform-origin: bottom;
+    margin-top: 23%;
+    margin-left: 5%;
+}
+
+.subtitle{
+    margin-top: 8%;
+    font-weight: normal;
+    font-size: 70%;
+    line-height: 110%;
+}
+
+.subheading{
+    color: #444;
+}
+.smallbox {
+    font-size:10%;
+    font-family:Helvetica;
+    padding-top: 1%;
+    padding-left: 1.6%;
+    overflow:hidden;}
+.smallbox.blue {
+    background: #4AEBFF
+}
+.smallbox.orange {
+    background: tomato
+}
+.smallbox.green {
+    background: #62EF87
+}
+
+.footer {
+  width:90%;
+  height:44px;
+  padding-top:20px;
+  position:fixed;    /*Here's what sticks it*/
+  bottom:0;          /*to the bottom of the window*/
+  left:0;            /*and to the left of the window.*/
+  text-align: right;
+
+}
+
+.col{
+    flex:50%;
+}
+.col.subheading{
+     margin-bottom: 1%;
+}
+.col ul{
+     margin-top: 0%;
+}
+.col.smallbox{
+    padding-left: 2.5%;
+}
+.row{
+    display:flex;
+    width: 90%;
+    margin-bottom: 1%;
+}
+
+#menu a {
+    font-size: 290%;
+    text-align: center;
+    margin-left: 5%;
+    text-decoration: none;
+    color: #444;
+    transition: 0.2s ease-out;
+}
+#menu a:visited {
+    color: #444;
+}
+#menu a:hover {
+    color: black;
+}
+
+#home{
+    margin-left: 10%;
+}
+
+#interests p{
+    font-size: 110%;
+    margin-right: 15%;
+}
+#interests a{
+    text-decoration: none;
+}
+
+#interests a:visited {
+color: #444;
+}
+
+#accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, #accordion:hover {
+    background-color: #ccc;
+}
+
+#panel {
+    padding: 0;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.2s ease-out;
+}
+
+
+.flex-container {
+	display: flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-box;
+	display: -webkit-flex;
+	justify-content: space-around;
+	list-style: none;
+	margin: 70px 0 -60px 0;
+	padding: 0;
+	-webkit-flex-flow: row wrap;
+	position: relative;
+    line-height:30px;
+}
+.flex-item {
+	color: white;
+	height: 225px;
+	margin: 10px 0;
+	padding: 0;
+	width: 230px;
+	position: relative;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: left;
+}
+.flex-item-inner {
+	display: flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-box;
+	display: -webkit-flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	height: 215px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.flex-item-inner a {
+	color: white;
+	cursor: pointer;
+}
+
+/*-------- cards --------*/
+.card-front,
+.card-back {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 185px;
+	height: 170px;
+	padding: 15px 40px 45px 20px;
+
+	margin: 0;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+	justify-content: flex-end;
+}
+
+
+.card-front.orange {
+	background-color: tomato;
+}
+.card-front.green {
+	background-color: #59D579;
+}
+.card-front.blue {
+	background-color: #00C1E4;
+}
+
+.card-back {
+	background-color: #white;
+	-webkit-transform: rotateY(-180deg);
+	transform: rotateY(-180deg);
+}
+.card-back ul {
+	color: white;
+	font-size: 65%;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 120%;
+    margin-left: -10%;
+    margin-top: 10%;
+    align-self: center;
+    align-items: center;
+}
+.card-back li {
+	margin-bottom: 5%;
+}
+.card-back a{
+    color:white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.card-back.orange {
+	background-color: #FF9886;
+}
+.card-back.green {
+	background-color: #74D599;
+}
+.card-back.blue {
+	background-color: #67CEE5;
+}
+}
+
+/*-------- cards / flip effect --------*/
+.flex-item:hover .card-front {
+	-webkit-transform: rotateY(-180deg);
+	transform: rotateY(-180deg);
+}
+.flex-item:hover .card-back {
+	-webkit-transform: rotateY(0);
+	transform: rotateY(0);
+}
+
+
+.row > .column .modal {
+  padding: 0 8px;
+}
+
+.row:after .modal {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+.column .modal {
+  float: left;
+  width: 25%;
+}
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.85);
+  padding-bottom: 100px;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  margin: auto;
+  margin-top: -50px;
+  padding: 0;
+  width: 80%;
+  height: 90%;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+/* The Close Button */
+.close {
+  color: rgba(255, 255, 255, .8);
+  position: absolute;
+  top: 3.5%;
+  right: 6.5%;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.slide {
+  display: none;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.slide img {
+  height: 100%;
+  width:auto;
+  object-fit: contain;
+  align-self: center;
+  position: relative;
+}
+
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  bottom: 50%;
+  width: auto;
+  padding: 16px;
+  color: #707070;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
