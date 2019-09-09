@@ -39,6 +39,18 @@ ul{
     line-height:1.8;
 }
 
+a {
+    text-decoration: none;
+    color: #444;
+    transition: 0.2s ease-out;
+}
+a:visited {
+    color: #444;
+}
+a:hover {
+    color: black;
+    font-style: italic;
+}
 
 section{
     padding-top: 2%;
@@ -144,13 +156,6 @@ section{
     text-decoration: none;
     color: #444;
     transition: 0.2s ease-out;
-}
-#menu a:visited {
-    color: #444;
-}
-#menu a:hover {
-    color: black;
-    font-style: italic;
 }
 
 #home{
