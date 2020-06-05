@@ -57,6 +57,16 @@ section{
     margin-bottom: 5%;
 }
 
+.text-underline-orange{
+    border-bottom: 1px solid tomato;
+    display: inline;
+}
+
+.text-underline-pink{
+    border-bottom: 1px solid #ff87ef;
+    display: inline;
+}
+
 .right{
     margin-left: 20%;
     margin-top: 3%;
@@ -101,6 +111,19 @@ section{
 .subheading{
     color: #444;
 }
+
+.subheading.underline.blue {
+    border-bottom: 2px solid #4AEBFF;
+    display: inline;
+    line-height: 1;
+  }
+
+.subheading.underline.green {
+    border-bottom: 2px solid #74D599;
+    display: inline;
+    line-height: 1;
+  }
+
 .smallbox {
     font-size:8pt;
     width: 2em;
@@ -118,6 +141,11 @@ section{
 .smallbox.green {
     background: #62EF87
 }
+.smallbox.pink {
+    background: #ff87ef
+}
+
+
 
 .footer {
   width:90%;
