@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script type="text/javascript" src="action.js"></script>
@@ -12,414 +13,483 @@
 </head>
 
 <body>
-    <div id="home">
+    <section id="home">
         <h1> Shannon Hwang </h1>
-        <h2 class = "subheading"> senior @ MIT </h2>
+        <h2> incoming MEng @ MIT </h2>
         <div class = "indent">
-            <h3 class = "subheading" style="line-height: 60%;">as of 6/4/2020, i’m:</h3>
+            <h3> 🗓️ as of 6/4/2020, i’m:</h3>
             <ul class = "indent">
               <li>interning in the Strategic Energy Analysis Center at <a href="https://www.nrel.gov"> NREL </a> </li>
-              <li>cooking a lot, re-learning Chinese, and reading </li>
+              <li>quarantine cooking, re-learning Chinese, and reading </li>
               <li>thinking about the intersection of environmental efforts and computer science</li>
         </div>
         </ul>
-        <h2 style="display:inline; color:black">about:</h2>
-        <span id="menu">
-              <a href="#studies">studies</a>
-              <a href="#projects"> projects</a>
-              <a href="#interests"> interests</a>
-        </span>
-    </div>
+        <div id="navmenu">
+            <h2>about:</h2>
+            <span>
+                <a href="#studies">studies</a>
+                <a href="#projects"> projects</a>
+                <a href="#hobbies"> hobbies</a>
+            </span>
+        </div>
+    </section>
 
 
-    <div><section id= "studies">
-        <span class="h1sideways">Studies</span>
+    <section id= "studies">
+        <span class="h1sideways" style = "margin-top: 17%">studies</span>
             <div class = "right">
-                <span><h3 style = "display:inline; ">major: </h3>
-                    <h4 class = "subheading underline blue"> electrical engineering and computer science (EECS)</h4>
-                </span>
-                <br />
-                <span><h3 style = "display:inline;">minor: </h3>
-                    <h4 class = "subheading underline green"> energy studies</h4>
-                </span>
-                <br /><br />
-                <p class = "indent" style = "margin-right: 35%;">
-                    <span style = "font-size: 170%; display: inline; color:black">There’s a lot I haven’t explored yet – but, of what I’ve seen,
-                    I like AI, data science, and algorithmic design. </span>
-                    <br />
-                    <span style = "font-size: 125%; margin-right: 15%"> 
-                    I am particularly interested in thinking about how to leverage the power of computer science in advancing environmental efforts, 
-                    and have taken classes covering relevant <span class = "text-underline-orange"> mechanical engineering</span> and <span class = "text-underline-pink">policy</span> principles.</span>
-                    <br />
-                </p>
-                <br /><br />
-            <h3 style = "margin-bottom: 1%">Coursework</h3>
-                <div class = "indent">
-                    <div class = "row">
-                        <div class = "col">
-                            <h4 class = "col subheading">Spring 2020</h4>
-                                <ul>
-                                <li><div class="col smallbox blue">&nbsp;</div> 6.042 Math for Computer Science </li>
-                                <li><div class="col smallbox blue">&nbsp;</div> 6.041 Introduction to Probability </li>
-                                <li><div class="col smallbox blue">&nbsp;</div> 6.UAT Oral Communication </li>
-                                <li><div class="col smallbox pink">&nbsp;</div> 11.003 Methods of Policy Analysis</li>
-                                <li> HAA.2063/GENED 1102 Making Change When Change is Hard</li>
-                                </ul>
+                <div id="degrees">
+                    <h3 style = "margin-bottom: 2%"> degrees</h3>
+                        <div class="indent">
+                            <h4 class="subheading"> current: </h4>
+                                <h4 class="subheading"> MEng in </h4>
+                                <h4 class = "subheading underline blue"> computer science</h4>
+                                <h4 class="subheading"> , concentrating in </h4>
+                                <h4 class = "subheading underline blue"> artificial intelligence (AI)</h4>
+                            <br/><br/>
+                            <h4 class="subheading">undergrad: </h4>
+                            <h4 class = "subheading underline blue"> EECS</h4> 
+                            <h4 class = "subheading"> major & </h4>
+                            <h4 class = "subheading underline green"> energy studies</h4>
+                            <h4 class = "subheading"> minor, </h4>
+                            <h4 class = "subheading"> MIT '20 </h4> <br/>
                         </div>
-                        <div class = "col">
-                            <h4 class = "col subheading">Fall 2019</h4>
-                                <ul>
-                                <li><div class="col smallbox blue">&nbsp;</div> 6.419 Statistics, Computation, and Applications </li>
-                                <li><div class="col smallbox blue">&nbsp;</div> <div class="col smallbox green">&nbsp;</div> 6.S082 Principles of Modeling, Simulations and Control for Electric Energy Systems</li>
-                                <li><div class="col smallbox orange">&nbsp;</div> <div class="col smallbox green">&nbsp;</div> 2.650 Introduction to Sustainable Energy</li>
-                                <li><div class="col smallbox green">&nbsp;</div> IDS.521 Energy Systems and Climate Change Mitigation</li>
-                                <li>15.011 Economic Analysis for Business Decisions</li>
-                                </ul>
-                        </div>
-                    </div>
-                    <div id="panel">
-                        <div class = "row">
-                            <div class = "col">
-                                <h4 class = "col subheading">Spring 2019</h4>
-                                    <ul>
-                                    <li><div class="col smallbox blue">&nbsp;</div> 6.033 Computer Systems Engineering </li>
-                                    <li><div class="col smallbox blue">&nbsp;</div> 6.858 Computer Systems Security</li>
-                                    <li><div class="col smallbox green">&nbsp;</div> 1.020 Engineering Sustainability</li>
-                                    <li><div class="col smallbox green">&nbsp;</div> <div class="col smallbox pink">&nbsp;</div> 11.167 Global Energy: Politics, Markets, and Policy</li>
-                                    </ul>
-                            </div>
-                            <div class = "col">
-                                <h4 class = "col subheading">Fall 2018</h4>
-                                    <ul>
-                                    <li><div class="col smallbox blue">&nbsp;</div> 6.031 Elements of Software Construction </li>
-                                    <li><div class="col smallbox blue">&nbsp;</div> 6.008 Introduction to Inference</li>
-                                    <li><div class="col smallbox blue">&nbsp;</div> 6.003 Signals and Systems</li>
-                                    <li><div class="col smallbox green">&nbsp;</div> <div class="col smallbox pink">&nbsp;</div> 12.385 Science, Politics, and Environmental Policy</li>
-                                    <li>6.911/2 Engineering Leadership</li>
-                                    <li><div class="col smallbox pink">&nbsp;</div> 11.002 Making Public Policy</li>
-                                    </ul>
-                            </div>
-                        </div>
-                        <div class = "row">
-                            <div class = "col">
-                                <h4 class = "col subheading">Spring 2018</h4>
-                                    <ul>
-                                    <li><div class="col smallbox blue">&nbsp;</div> 6.141 Robotics: Science and Systems </li>
-                                    <li><div class="col smallbox blue">&nbsp;</div> 6.006 Introduction to Algorithms</li>
-                                    <li><div class="col smallbox orange">&nbsp;</div> 2.005 Thermal Fluids I</li>
-                                    <li><div class="col smallbox green">&nbsp;</div> 8.21 Physics of Energy</li>
-                                    <li>21M.361 Electronic Music Composition I</li>
-                                    </ul>
-                            </div>
-                            <div class = "col">
-                                <h4 class = "col subheading">Fall 2017</h4>
-                                    <ul>
-                                    <li><div class="col smallbox blue">&nbsp;</div> 6.036 Introduction to Machine Learning</li>
-                                    <li><div class="col smallbox orange">&nbsp;</div> 2.003 Dynamics and Control I</li>
-                                    <li><div class="col smallbox orange">&nbsp;</div> 2.001 Mechanics and Materials I</li>
-                                    <li>7.012 Introductory Biology</li>
-                                    <li>21M.301 Harmony and Counterpoint I</li>
-                                    <li>21M.401 MIT Concert Choir</li>
-                                    </ul>
-                            </div>
-                        </div>
-                        <div class = "row">
-                            <div class = "col">
-                                <h4 class = "col subheading">Spring 2017</h4>
-                                    <ul>
-                                    <li><div class="col smallbox blue">&nbsp;</div> 6.S08 Interconnected Embedded Systems </li>
-                                    <li><div class="col smallbox blue">&nbsp;</div> 6.004 Computation Structures</li>
-                                    <li><div class="col smallbox orange">&nbsp;</div> 2.00B Toy Product Design </li>
-                                    <li>18.03 Differential Equations</li>
-                                    <li>9.00 Intro to Psychological Science</li>
-                                    </ul>
-                            </div>
-                            <div class = "col">
-                                <h4 class = "col subheading">Fall 2016</h4>
-                                    <ul>
-                                    <li>8.02 Physics II</li>
-                                    <li>18.02 Calculus</li>
-                                    <li>5.111 Principles of Chemical Science</li>
-                                    <li>21L.004 Reading Poetry</li>
-                                    </ul>
-                            </div>
-                        </div>
+                </div>
 
+                <div id="studyblurb">
+                    <p class = "important">There’s a lot I haven’t explored yet – but, of what I’ve seen,
+                    I like AI, data science, and algorithmic design. </p>
+                    <p style = "font-size: 125%; margin-right: 15%; margin-top:1%"> 
+                    I am particularly interested in thinking about how to leverage the power of computer science in advancing environmental efforts, 
+                    and have taken classes covering relevant <span class = "underline orange"> mechanical engineering</span> and <span class = "underline pink">policy</span> principles.</p>
+                </div>
+
+            <div id="classes">
+                <h3 style = "margin-bottom: 0%">coursework</h3>
+                    <div class = "indent">
                         <div class = "row">
                             <div class = "col">
-                                <h4 class = "col subheading">IAP 2018</h4>
-                                <ul>
-                                    <li><div class="col smallbox blue">&nbsp;</div> UROP: Clinical Machine Learning Group</li>
-                                </ul>
+                                <h4 class = "col subheading">Spring 2020</h4>
+                                    <ul>
+                                    <li><div class="col smallbox blue">&nbsp;</div> 6.042 Math for Computer Science </li>
+                                    <li><div class="col smallbox blue">&nbsp;</div> 6.041 Introduction to Probability </li>
+                                    <li><div class="col smallbox blue">&nbsp;</div> 6.UAT Oral Communication </li>
+                                    <li><div class="col smallbox pink">&nbsp;</div> 11.003 Methods of Policy Analysis</li>
+                                    <li> HAA.2063/GENED 1102 Making Change When Change is Hard</li>
+                                    </ul>
                             </div>
                             <div class = "col">
-                                <h4 class = "col subheading">IAP 2017</h4>
-                                <ul>
-                                    <li><div class="col smallbox blue">&nbsp;</div> 6.057 Introduction to MATLAB</li>
-                                    <li><div class="col smallbox blue">&nbsp;</div> 6.179 Introduction to C and C++</li>
-                                    <li><div class="col smallbox green">&nbsp;</div> UROP: Electrochemical Energy Lab</li>
-                                    <li>UROP: Economics Department</li>
-                                </ul>
-                            </div>
-                            <div class = "col">
-                                <h4 class = "col subheading">IAP 2016</h4>
-                                <ul>
-                                    <li><div class="col smallbox blue">&nbsp;</div> 6.S080 Introduction to Python</li>
-                                    <li>8.20 Introduction to Special Relativity</li>
-                                </ul>
+                                <h4 class = "col subheading">Fall 2019</h4>
+                                    <ul>
+                                    <li><div class="col smallbox blue">&nbsp;</div> 6.419 Statistics, Computation, and Applications </li>
+                                    <li><div class="col smallbox blue">&nbsp;</div> <div class="col smallbox green">&nbsp;</div> 6.S082 Principles of Modeling, Simulations and Control for Electric Energy Systems</li>
+                                    <li><div class="col smallbox orange">&nbsp;</div> <div class="col smallbox green">&nbsp;</div> 2.650 Introduction to Sustainable Energy</li>
+                                    <li><div class="col smallbox green">&nbsp;</div> IDS.521 Energy Systems and Climate Change Mitigation</li>
+                                    <li>15.011 Economic Analysis for Business Decisions</li>
+                                    </ul>
                             </div>
                         </div>
-                    </div>
-                <button id="accordion">more</button>
+                        <div id="panel">
+                            <div class = "row">
+                                <div class = "col">
+                                    <h4 class = "col subheading">Spring 2019</h4>
+                                        <ul>
+                                        <li><div class="col smallbox blue">&nbsp;</div> 6.033 Computer Systems Engineering </li>
+                                        <li><div class="col smallbox blue">&nbsp;</div> 6.858 Computer Systems Security</li>
+                                        <li><div class="col smallbox green">&nbsp;</div> 1.020 Engineering Sustainability</li>
+                                        <li><div class="col smallbox green">&nbsp;</div> <div class="col smallbox pink">&nbsp;</div> 11.167 Global Energy: Politics, Markets, and Policy</li>
+                                        </ul>
+                                </div>
+                                <div class = "col">
+                                    <h4 class = "col subheading">Fall 2018</h4>
+                                        <ul>
+                                        <li><div class="col smallbox blue">&nbsp;</div> 6.031 Elements of Software Construction </li>
+                                        <li><div class="col smallbox blue">&nbsp;</div> 6.008 Introduction to Inference</li>
+                                        <li><div class="col smallbox blue">&nbsp;</div> 6.003 Signals and Systems</li>
+                                        <li><div class="col smallbox green">&nbsp;</div> <div class="col smallbox pink">&nbsp;</div> 12.385 Science, Politics, and Environmental Policy</li>
+                                        <li>6.911/2 Engineering Leadership</li>
+                                        <li><div class="col smallbox pink">&nbsp;</div> 11.002 Making Public Policy</li>
+                                        </ul>
+                                </div>
+                            </div>
+                            <div class = "row">
+                                <div class = "col">
+                                    <h4 class = "col subheading">Spring 2018</h4>
+                                        <ul>
+                                        <li><div class="col smallbox blue">&nbsp;</div> 6.141 Robotics: Science and Systems </li>
+                                        <li><div class="col smallbox blue">&nbsp;</div> 6.006 Introduction to Algorithms</li>
+                                        <li><div class="col smallbox orange">&nbsp;</div> 2.005 Thermal Fluids I</li>
+                                        <li><div class="col smallbox green">&nbsp;</div> 8.21 Physics of Energy</li>
+                                        <li>21M.361 Electronic Music Composition I</li>
+                                        </ul>
+                                </div>
+                                <div class = "col">
+                                    <h4 class = "col subheading">Fall 2017</h4>
+                                        <ul>
+                                        <li><div class="col smallbox blue">&nbsp;</div> 6.036 Introduction to Machine Learning</li>
+                                        <li><div class="col smallbox orange">&nbsp;</div> 2.003 Dynamics and Control I</li>
+                                        <li><div class="col smallbox orange">&nbsp;</div> 2.001 Mechanics and Materials I</li>
+                                        <li>7.012 Introductory Biology</li>
+                                        <li>21M.301 Harmony and Counterpoint I</li>
+                                        <li>21M.401 MIT Concert Choir</li>
+                                        </ul>
+                                </div>
+                            </div>
+                            <div class = "row">
+                                <div class = "col">
+                                    <h4 class = "col subheading">Spring 2017</h4>
+                                        <ul>
+                                        <li><div class="col smallbox blue">&nbsp;</div> 6.S08 Interconnected Embedded Systems </li>
+                                        <li><div class="col smallbox blue">&nbsp;</div> 6.004 Computation Structures</li>
+                                        <li><div class="col smallbox orange">&nbsp;</div> 2.00B Toy Product Design </li>
+                                        <li>18.03 Differential Equations</li>
+                                        <li>9.00 Intro to Psychological Science</li>
+                                        </ul>
+                                </div>
+                                <div class = "col">
+                                    <h4 class = "col subheading">Fall 2016</h4>
+                                        <ul>
+                                        <li>8.02 Physics II</li>
+                                        <li>18.02 Calculus</li>
+                                        <li>5.111 Principles of Chemical Science</li>
+                                        <li>21L.004 Reading Poetry</li>
+                                        </ul>
+                                </div>
+                            </div>
+
+                            <div class = "row">
+                                <div class = "col">
+                                    <h4 class = "col subheading">IAP 2018</h4>
+                                    <ul>
+                                        <li><div class="col smallbox blue">&nbsp;</div> UROP: Clinical Machine Learning Group</li>
+                                    </ul>
+                                </div>
+                                <div class = "col">
+                                    <h4 class = "col subheading">IAP 2017</h4>
+                                    <ul>
+                                        <li><div class="col smallbox blue">&nbsp;</div> 6.057 Introduction to MATLAB</li>
+                                        <li><div class="col smallbox blue">&nbsp;</div> 6.179 Introduction to C and C++</li>
+                                        <li><div class="col smallbox green">&nbsp;</div> UROP: Electrochemical Energy Lab</li>
+                                        <li>UROP: Economics Department</li>
+                                    </ul>
+                                </div>
+                                <div class = "col">
+                                    <h4 class = "col subheading">IAP 2016</h4>
+                                    <ul>
+                                        <li><div class="col smallbox blue">&nbsp;</div> 6.S080 Introduction to Python</li>
+                                        <li>8.20 Introduction to Special Relativity</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    <button id="accordion">more</button>
+                </div>
             </div>
         </section>
-    </div>
 
-        <div><section id="projects">
-            <span class="h1sideways" style = "margin-top: 25%">Projects</span>
-            <div class = "right" style= "margin-bottom: 15%; padding-right: 8%">
+        <section id="projects">
+            <span class="h1sideways">projects</span>
+            <div class = "right" style= "padding-right: 8%">
             <div class="flex-container">
-                <div class="flex-item">
-                    <div class="card-front blue">
-                            Machine Learning Generation of Point Clouds
-                            <div class = "subtitle">internship <br /> summer 2019</div>
+                    <div class="category-filter">
+                        <p class="category all active" category="all">all</p>
+                        <p class="category code" category="code">code</p>
+                        <p class="category ai" category="ai">ai</p>
+                        <p class="category environment" category="environment">environment</p>
+                        <p class="category mech" category="mech">mech</p>
                     </div>
-                    <div class="card-back blue">
-                        <ul>
-                            <li>researched and designed a neural network for generating point clouds</li>
-                            <li>summer internship project at <a href= "https://getcruise.com">Cruise</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="flex-item">
-                    <div class="card-front blue">
-                        Diabetes Prediction from Insurance Claims
-                        <div class = "subtitle">undergraduate research <br /> IAP/spring 2019</div>
-                    </div>
-                    <div class="card-back blue">
-                        <ul>
-                            <li>developed ETL pipeline and updated group's model for a claims dataset containing over 300 million patients </li>
-                            <li>research in MIT Clinical Machine Learning Group</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="flex-item" >
-                    <div class="card-front blue">
-                        MIT Unified Submission and Grading System
-                        <div class = "subtitle">6.033 final project <br /> spring 2019</div>
-                    </div>
-                    <div class="card-back blue">
-                        <ul>
-                            <li>designed specifications for a hypothetical class assignment grading system</li>
-                            <li>report <a href= "https://drive.google.com/file/d/1JRp3CTicV_4nQG1BgiFKM6yRj7VzJ2HG/view?usp=sharing"> here</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="flex-item" >
-                    <div class="card-front blue">
-                        Change Detection and Classification of Point Clouds
-                        <div class = "subtitle">internship <br /> summer 2018</div>
-                    </div>
-                    <div class="card-back blue">
-                        <ul>
-                            <li>developed algorithms for change detection and identifying buildings and foliage within aerial LiDAR point clouds of large urban areas</li>
-                            <li>summer research at MIT Lincoln Laboratories</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="flex-container">
-                <div class="flex-item">
-                    <div class="card-front blue">
-                        Visual Robotic Navigation Using Deep Neural Networks
-                        <div class = "subtitle">6.141 final project <br /> spring 2018</div>
-                    </div>
-                    <div class="card-back blue">
-                        <ul>
-                            <li>trained deep neural network enabling robotic navigation with only camera images</li>
-                            <li>final project for MIT class 6.141 Robotics: Science and Systems </li>
-                            <li>video <a href= "https://drive.google.com/file/d/1gmtQAWxf_S51JbTHHDS88L7lliBRBJoB/view?usp=sharing" target="_blank" rel="noopener noreferrer"> here</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="flex-item">
-                    <div class="card-front green">
-                        Machine Learning Classification of Atmospheric Convection
-                        <div class = "subtitle">undergraduate research <br /> spring 2018</div>
-                    </div>
-                    <div class="card-back green">
-                        <ul>
-                            <li>researched application of random forest classifier to identifying atmospheric convection events</li>
-                            <li>undergraduate research in MIT EAPS department</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="flex-item">
-                    <div class="card-front orange">
-                        Design of Handheld Iris Scanner
-                        <div class = "subtitle">undergraduate research <br /> fall 2017</div>
-                    </div>
-                    <div class="card-back orange">
-                        <ul>
-                            <li>designed handheld infrared scanner in SolidWorks for taking pictures of human irises</li>
-                            <li>undergraduate project in MIT D-Lab</li>
-                            <li>pictures <a onclick="openModal('scannerModal', 'scannerSlides');"> here</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="flex-item">
-                    <div class="card-front orange">
-                        Design and CFD Analysis of UAV Wingtip Fairing
-                        <div class = "subtitle">internship <br /> summer 2017</div>
-                    </div>
-                    <div class="card-back orange">
-                        <ul>
-                            <li>designed fairing in SolidWorks </li>
-                            <li>analyzed aerodynamic performance with ANSYS Fluent </li>
-                            <li>summer internship at CEiiA Centre of Engineering and Product Development</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
 
-            <div class="flex-container">
-                <div class="flex-item">
-                    <div class="card-front blue">
-                            Harmoni
-                            <div class = "subtitle">6.S08 final project <br /> spring 2017</div>
+                    <div class="project category-code category-environment">
+                        <div class="projectaccordion">
+                            <h3 class="icon"> ⚡ </h3>
+                            <div class="info">
+                                <h3 class="title"> electricity price arbitrage with thermal energy storage (ongoing) </h3>
+                                <p class="subtitle">internship @ <a href="https://www.nrel.gov"> National Renewable Energy Laboratory</a>, summer 2020</p>
+                            </div>
+                        </div>
+                        <div class="projectpanel">        
+                            <ul>
+                                <li> developing techno-economic optimization model of a thermal energy storage system to evaluate its feasibility 
+                                     for electrifying industrial processes </li>
+                                <li> developed algorithm to improve realism of volatility in modeled 2050 electricity spot prices </li>
+                                <li> Department of Energy <a href="https://science.osti.gov/wdts/suli">SULI</a> internship in NREL's Strategic Energy Analysis Center</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="card-back blue">
-                        <ul>
-                            <li>created microcontroller system to generate harmonies to user-sung input</li>
-                            <li>system interfaced with server-hosted database </li>
-                            <li>documentation <a id="trigger" href = "static/HARMONI.pdf" target="_blank" rel="noopener noreferrer"> here</a></li>
-                        </ul>
+
+                    <div class="project category-code category-ai category-environment">
+                        <div class="projectaccordion">
+                            <h3 class="icon"> 🤥 </h3>
+                            <div class="info">
+                                <h3 class="title"> identifying climate change disinformation (ongoing) </h3>
+                                <p class="subtitle">undergraduate research @ MIT CSAIL, spring 2020</p>
+                            </div>
+                        </div>
+                        <div class="projectpanel">        
+                            <ul>
+                                <li> created logistic regression model to classify climate change-related disinformation on Twitter </li>
+                                <li> analyzed network of disinformation spreaders on twitter </li>
+                                <li> undergraduate research in CSAIL's ALFA group </li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <div class="flex-item">
-                    <div class="card-front orange">
-                        Shark Splash!
-                        <div class = "subtitle">2.00B final project <br /> spring 2017</div>
+
+                    <div class="project category-code category-ai">
+                        <div class="projectaccordion">
+                            <h3 class="icon"> 🔍 </h3>
+                            <div class="info">
+                                <h3 class="title"> Improving NLP model interpretability </h3>
+                                <p class="subtitle">internship @ Microsoft, winter 2020</p>
+                            </div>
+                        </div>
+                        <div class="projectpanel">        
+                            <ul>
+                                <li>evaluated performance and developed API for the Introspective Rationale Explainer,
+                                    an interpretability model that identifies important features used by Natural Language Processing (NLP) classifiers</li>
+                                <li>contribution was written about <a href="https://medium.com/@evepardi/responsible-ai-interpret-text-introspective-rationale-explainer-9a3b1d7a5e4a">here</a> and released in
+                                    Microsoft's <a href="https://medium.com/@evepardi/responsible-ai-interpret-text-cabc32ca5857">interpret-text</a>, an open-source package
+                                    providing a unified interface for different NLP interpretability models
+                                </li>
+                                <li>winter internship in the Microsoft AI Development Acceleration Program (MAIDAP)</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="card-back orange">
-                        <ul>
-                            <li>worked in team to ideate, design, and iteratively prototype a novel water-shooting shark toy</li>
-                            <li>project for 2.00B: Toy Product Design </li>
-                            <li>pictures <a onclick="openModal('sharkModal', 'sharkSlides');"> here</a></li>
-                        </ul>
+
+                    <div class="project category-code category-ai">
+                        <div class="projectaccordion">
+                            <h3 class="icon"> 🚗 </h3>
+                            <div class="info">
+                                <h3 class="title"> generating point clouds using deep learning</h3>
+                                <p class="subtitle">internship @ <a href= "https://getcruise.com">Cruise</a>, summer 2019</p>
+                            </div>
+                        </div>
+                        <div class="projectpanel">        
+                            <ul>
+                                <li>researched and designed a neural network for generating point clouds</li>
+                                <li>"spare time" research project as summer intern on Cruise's simulation team</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <div class="flex-item" >
-                    <div class="card-front blue">
-                        Visualizing Ridesharing User Activity
-                        <div class = "subtitle">undergraduate research <br /> spring 2017</div>
+
+                    <div class="project category-code category-ai">
+                        <div class="projectaccordion">
+                            <h3 class="icon"> 🏥 </h3>
+                            <div class="info">
+                                <h3 class="title">Diabetes prediction from insurance claims</h3>
+                                <p class="subtitle">undergrad research @ MIT Clinical Machine Learning Group, IAP/Spring 2019</p>
+                            </div>
+                        </div>
+                        <div class="projectpanel">
+                            <ul>
+                                <li>developed an extract-transfer-load (ETL) pipeline for a claims dataset containing over 300 million patients </li>
+                                <li>updated group’s diabetes onset prediction model to use newly processed insurance claims</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="card-back blue">
-                        <ul>
-                            <li>created and presented web app visualizing use of PEV, a tricycle ridesharing system</li>
-                            <li>undergraduate research in MIT Media Lab</li>
-                            <li>video <a href="https://drive.google.com/open?id=1P8f99IFIBTG8mACLIdCJcfGHMBK1hxHD" target="_blank" rel="noopener noreferrer"> here</a></li>
-                        </ul>
+
+                    <div class="project category-code">
+                        <div class="projectaccordion">
+                            <h3 class="icon"> 📚 </h3>
+                            <div class="info">
+                                <h3 class="title">MIT unified submission and grading system</h3>
+                                <p class="subtitle">6.033 final project, spring 2019</p>
+                            </div>
+                        </div>
+                        <div class="projectpanel">
+                            <ul>
+                                <li>designed specifications for a hypothetical class assignment grading system</li>
+                                <li>final project for MIT class 6.033 (Computer Systems Engineering) </li>
+                                <li>report <a href= "https://drive.google.com/file/d/1JRp3CTicV_4nQG1BgiFKM6yRj7VzJ2HG/view?usp=sharing"> here</a></li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <div class="flex-item" >
-                    <div class="card-front blue">
-                        Mad Skillz
-                        <div class = "subtitle">mit web programming competition <br /> winter 2017</div>
+
+                    <div class="project category-code">
+                        <div class="projectaccordion">
+                            <h3 class="icon"> ❗ </h3>
+                            <div class="info">
+                                <h3 class="title">Change detection and classification of point clouds</h3>
+                                <p class="subtitle">internship @ <a href="https://www.ll.mit.edu">MIT Lincoln Laboratory</a>, summer 2018</p>
+                            </div>
+                        </div>
+                        <div class="projectpanel">
+                            <ul>
+                                <li>developed algorithm for change detection in aerial LiDAR point clouds of large urban areas</li>
+                                <li>researched algorithms for identifying buildings and foliage in point clouds</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="card-back blue">
-                        <ul>
-                            <li>created dynamic database-backed website in a team for mock skill-sharing company</li>
-                            <li>presented product to ~10 industry sponsors</li>
-                            <li>made semifinals</li>
-                        </ul>
+
+                    <div class="project category-code category-ai">
+                        <div class="projectaccordion">
+                            <h3 class="icon"> 🤖 </h3>
+                            <div class="info">
+                                <h3 class="title">Visual robotic navigation using deep neural networks</h3>
+                                <p class="subtitle">6.141 final project, spring 2018</p>
+                            </div>
+                        </div>
+                        <div class="projectpanel">
+                            <ul>
+                                <li>trained deep neural network enabling robotic navigation with only camera images</li>
+                                <li>final project for MIT class 6.141 (Robotics: Science and Systems) </li>
+                                <li>video <a href= "https://drive.google.com/file/d/1gmtQAWxf_S51JbTHHDS88L7lliBRBJoB/view?usp=sharing" target="_blank" rel="noopener noreferrer"> here</a></li>
+                            </ul>
+                        </div>
+                    </div> 
+
+                    <div class="project category-code category-ai category-environment">
+                        <div class="projectaccordion">
+                            <h3 class="icon"> 🌧️ </h3>
+                            <div class="info">
+                                <h3 class="title">Machine learning classification of atmospheric convection</h3>
+                                <p class="subtitle">undergraduate research, spring 2018</p>
+                            </div>
+                        </div>
+                        <div class="projectpanel">
+                            <ul>
+                                <li>researched application of random forest algorithms to classifying convection events, part 
+                                    of a larger effort to involve machine learning in modeling atmospheric convection
+                                </li>
+                                <li>undergraduate research in MIT EAPS (Earth, Atmospheric, and Planetary Sciences) department</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
+
+                    <div class="project category-mech">
+                        <div class="projectaccordion">
+                            <h3 class="icon"> 👁️</h3>
+                            <div class="info">
+                                <h3 class="title">Handheld iris scanner</h3>
+                                <p class="subtitle">undergraduate project, spring 2017</p>
+                            </div>
+                        </div>
+                        <div class="projectpanel">
+                            <ul>
+                                <li>designed handheld infrared scanner in SolidWorks for taking pictures of human irises</li>
+                                <li>undergraduate project in MIT D-Lab</li>
+                                <li>pictures <a href="https://drive.google.com/drive/folders/16Kr1VJ-uj580Q1JBwbhfAA019Kw5flFi?usp=sharing" target="_blank"> here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="project category-mech">
+                        <div class="projectaccordion">
+                            <h3 class="icon"> 🛩️ </h3>
+                            <div class="info">
+                                <h3 class="title">Design and CFD analysis of UAV wingtip fairing</h3>
+                                <p class="subtitle">internship @ <a href="https://www.ceiia.com">CEiiA</a>, summer 2017</p>
+                            </div>
+                        </div>
+                        <div class="projectpanel">
+                            <ul>
+                                <li>designed wingtip fairing currently used on group’s unmanned aerial vehicle using Solidworks </li>
+                                <li>assessed aerodynamic impact of fairing via Computational Fluid Dynamics (CFD) analysis in ANSYS Fluent </li>
+                                <li>summer internship at CEiiA Centre of Engineering and Product Development in Portugal as part of MISTI 
+                                    (MIT International Science and Technology Initiatives) </li>
+                                <li>MISTI writeup <a href="https://misti.mit.edu/shannon-hwang-becomes-immersed-drone-aerodynamic-design">here</a> </li>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> 
+                    
+                    <div class="project category-code">
+                        <div class="projectaccordion">
+                            <h3 class="icon"> 🎶 </h3>
+                            <div class="info">
+                                <h3 class="title">Harmoni</h3>
+                                <p class="subtitle">6.S08 final project, spring 2017</p>
+                            </div>
+                        </div>
+                        <div class="projectpanel">
+                            <ul>
+                                <li>created microcontroller system to generate harmonies to user-sung input</li>
+                                <li>system interfaced with server-hosted database </li>
+                                <li>final project for MIT class 6.S08 (Interconnected Embedded Systems) </li>
+                                <li>documentation <a id="trigger" href = "static/HARMONI.pdf" target="_blank" rel="noopener noreferrer"> here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="project category-mech">
+                        <div class="projectaccordion">
+                            <h3 class="icon"> 🦈 </h3>
+                            <div class="info">
+                                <h3 class="title">Shark Splash!</h3>
+                                <p class="subtitle">2.00B final project, spring 2017</p>
+                            </div>
+                        </div>
+                        <div class="projectpanel">
+                            <ul>
+                                <li>worked in team to ideate, design, and iteratively prototype a novel water-shooting shark toy</li>
+                                <li>final project for MIT class 2.00B (Toy Product Design) </li>
+                                <li>pictures <a href="https://drive.google.com/drive/folders/1F8yeBjDgv3AOzLi-9cGxwnXX3GMje-2o?usp=sharing" target="_blank"> here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="project category-code">
+                        <div class="projectaccordion">
+                            <h3 class="icon"> 🚴 </h3>
+                            <div class="info">
+                                <h3 class="title">Visualizing rideshare user activity</h3>
+                                <p class="subtitle">undergraduate project, spring 2017</p>
+                            </div>
+                        </div>
+                        <div class="projectpanel">
+                            <ul>
+                                <li>created and presented web app visualizing use of PEV, a tricycle ridesharing system</li>
+                                <li>undergraduate project in MIT Media Lab's Changing Places group</li>
+                                <li>video <a href="https://drive.google.com/open?id=1P8f99IFIBTG8mACLIdCJcfGHMBK1hxHD" target="_blank" rel="noopener noreferrer"> here</a></li>
+                            </ul>
+                        </div>
+                    </div> 
+
+                    <div class="project category-code">
+                        <div class="projectaccordion">
+                            <h3 class="icon"> 💻 </h3>
+                            <div class="info">
+                                <h3 class="title">Mad Skillz</h3>
+                                <p class="subtitle">mit web programming competition, winter 2017</p>
+                            </div>
+                        </div>
+                        <div class="projectpanel">
+                            <ul>
+                                <li>learned how to make a website by creating a dynamic database-backed website in a team for mock skill-sharing company</li>
+                                <li>presented product to ~10 industry sponsors</li>
+                                <li>made semifinals</li>
+                            </ul>
+                        </div>
+                    </div>   
             </div>
             </div>
-        </section></div>
-        <section id="interests">
-            <span class="h1sideways">Interests</span>
-            <div class="right" style="margin-top: -1%">
-                <h3>music</h3>
+        </section>
+
+        <section id="hobbies">
+            <span class="h1sideways" style = "margin-top: 18%">hobbies</span>
+            <div class="right">
+                <h3> some (other) things I like: </h3>
+                <h4 class="subheading">🎵 music </h4>
                     <p class = "indent">
-                        I like listening to tunes and occasionally making noises with <a href= "http://syncopasian.com/#/home">other people</a> or a piano. Am currently attempting to learn how to arrange songs.
+                        mostly just listening to tunes; in undergrad, I was part of <a href= "http://syncopasian.com/#/home">Syncopasian</a>, an acapella group. Currently, I'm trying to get better at playing the ukelele.
                         <br />
-                        Some artists I like: Panic! At the Disco, Shawn Wasabi, The Beatles, LSD, Vampire Weekend, Sara Bareilles
                     </p>
-                <h3>food (& travel)</h3>
+                <h4 class="subheading">🥘 food (& travel) </h4>
                     <p class = "indent">
-                        My family seemingly only travels to eat, but it's still lots of fun! I have a regrettable soft spot anything wrapped in carbs and am trying to get better at cooking.
+                        cooking and baking (and eating) is fun! Food is also a perhaps worryingly important part of any travel I plan. 
                     </p>
-                <h3>reading</h3>
+                <h4 class="subheading">📖 reading </h4>
                     <p class = "indent">
-                        Am currently trying to catch up on “classics” and broaden my non-fiction horizons (or really anything to offset a heavy leaning towards sci-fi and fantasy). Recommendations welcome!
+                        big sci-fi/fantasy fan, though I'm currently trying to catch up on “classics” and broaden my non-fiction horizons. Recommendations welcome!
                         <br />
-                        Some authors I like: Neil Gaiman, Cixin Liu, Arthur C. Clarke, Douglas Adams.
                     </p>
-                <h3>misc</h3>
+                    <h4 class="subheading">🤷‍♀️ misc </h4>
                     <p class = "indent">
-                        Doing things in the great outdoors (such as skiing and hiking), exploring new places, reading poetry, and learning random trivia.
+                        doing things in the great outdoors (such as skiing and hiking), exploring new places, reading poetry, and learning random trivia.
                     </p>
+                <br/><br/>
             </div>
         </section>
 
         <div class="footer"> questions? hwangys [@] mit [.] edu </div>
-
-    <!-- scannerModal Lightbox -->
-    <div id="scannerModal" class="modal">
-      <span class="close cursor" onclick="closeModal('scannerModal')">&times;</span>
-      <div class="modal-content">
-
-        <div class="slide scannerSlides">
-          <img src="static/scanner.png">
-        </div>
-
-        <div class="slide scannerSlides">
-          <img src="static/scanner2.png" >
-        </div>
-
-        <div class="slide scannerSlides">
-          <img src="static/scannerside.png" >
-        </div>
-
-        <div class="slide scannerSlides">
-          <img src="static/scannerfront.png">
-        </div>
-
-        <!-- Next/previous controls -->
-        <a class="prev" onclick="plusSlides(-1, 'scannerSlides')">&#10094;</a>
-        <a class="next" onclick="plusSlides(1, 'scannerSlides')">&#10095;</a>
-        </div>
-    </div>
-
-    <!-- The sharkModal Lightbox -->
-    <div id="sharkModal" class="modal">
-    <span class="close cursor" onclick="closeModal('sharkModal')">&times;</span>
-    <div class="modal-content">
-
-    <div class="slide sharkSlides">
-      <div>
-        <img src="static/sharkplaytest.jpg">
-      </div>
-    </div>
-
-    <div class="slide sharkSlides">
-      <img src="static/sharkcad.png">
-    </div>
-
-    <div class="slide sharkSlides">
-      <img src="static/sharkplaytest2.jpg">
-    </div>
-
-    <div class="slide sharkSlides">
-      <img src="static/sharkposter.jpg">
-    </div>
-
-    <!-- Next/previous controls -->
-    <a class="prev" onclick="plusSlides(-1, 'sharkSlides')">&#10094;</a>
-    <a class="next" onclick="plusSlides(1, 'sharkSlides')">&#10095;</a>
-    </div>
-    </div>
 </body>
 </html>
