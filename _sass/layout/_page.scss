@@ -52,7 +52,12 @@
 
   h2 {
     padding-bottom: 0.5em;
-    border-bottom: 1px solid var(--global-border-color);
+    border-bottom: 1px solid var(--global-text-color);
+    scroll-margin-top: 5em;
+  }
+
+  h3 {
+    scroll-margin-top: 5em;
   }
 
   p, li, dl {
@@ -198,7 +203,7 @@
 .page__share {
   margin-top: 2em;
   padding-top: 1em;
-  border-top: 1px solid var(--global-border-color);
+  border-top: 1px solid var(--global-text-color);
 
   @include breakpoint(max-width $small) {
     .btn span {
@@ -267,7 +272,7 @@
   margin-bottom: 8px;
   padding: 5px 10px;
   text-decoration: none;
-  border: 1px solid var(--global-border-color);
+  border: 1px solid var(--global-text-color);
   border-radius: $border-radius;
 
   &:hover {
@@ -290,7 +295,7 @@
   margin-bottom: 10px;
   padding-top: 2rem;
   font-size: $type-size-6;
-  border-top: 1px solid var(--global-border-color);
+  border-top: 1px solid var(--global-text-color);
   text-transform: uppercase;
 }
 
@@ -318,7 +323,7 @@
   margin: 1em 0;
 
   &:not(:last-child) {
-    border-bottom: 1px solid var(--global-border-color);
+    border-bottom: 1px solid var(--global-text-color);
   }
 }
 
@@ -380,7 +385,7 @@
 .page__related {
   margin-top: 2em;
   padding-top: 1em;
-  border-top: 1px solid var(--global-border-color);
+  border-top: 1px solid var(--global-text-color);
   @include clearfix();
   float: left;
 
