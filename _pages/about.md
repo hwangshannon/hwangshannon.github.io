@@ -13,7 +13,7 @@ Hello! I am a Ph.D. student in the Social and Engineering Systems program at the
 
 I previously graduated from MIT with an M.Eng and B.S. in Computer Science and Electrical Engineering and minor in Energy Studies, and have also worked at places like NRL, BCG, and Microsoft.
 
-Outside of research, you can find me reading 📖🛸🧙‍♀️, staying active 🏃🏻‍♀️🏋🏻‍♀️🚴🏻‍♀️, listening to/making music 🎧🎹🎤, traveling 🌏🌍🌎, and/or making and eating interesting types of food 👩🏻‍🍳🥘. 
+Outside of research, you can find me reading, staying active, listening to/making music, traveling, and/or making and eating interesting types of food. 
 
 
 ## Research
@@ -32,7 +32,7 @@ My Ph.D. research investigates how to design reliable, cost-effective energy sys
 
 3. Gschwendtner, C.\*; **Hwang, S.Y.S.\***; Trancik, J.E. Operational requirements and system value of industrial demand-side management as a replacement for physical electricity storage. In preparation.
 
-4. Hwang, S.Y.S*; Gao, X.*; Kohl, M.; Ziegler, M.S.; Trancik, J.E.; O’Gorman, P.A. Meteorology of low solar and wind energy periods in the United States: predictability and implications for planning energy systems. In preparation.
+4. **Hwang, S.Y.S.\***; Gao, X.\*; Kohl, M.; Ziegler, M.S.; Trancik, J.E.; O’Gorman, P.A. Meteorology of low solar and wind energy periods in the United States: predictability and implications for planning energy systems. In preparation.
 
 5. Ziegler, M. S.; Khurram, A.; **Hwang, S. Y. S.**; Roy, M.; Trancik, J. E. Dynamics of excess renewables energy and implications for its potential use. Joule (forthcoming).
     
