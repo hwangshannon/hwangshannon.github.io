@@ -43,6 +43,8 @@ My Ph.D. research investigates how to design reliable, cost-effective energy sys
 8. Wikoff, H. M.; Garfield, D.; **Hwang, S.**; Ribo, M. M.; Ruth, M.; Reese, S. B. Benchmarking Thermal Energy Storage Cost for Industrial Process Heat. Applied Energy 2025, 402, 126873. https://doi.org/10.1016/j.apenergy.2025.126873
     
 9. Garfield, D. J.; Jadun, P. N.; **Hwang, S.**; O’Malley, M.; Ruth, M. F. Opportunities for Industry to Provide Flexibility While Increasing Profitability; National Renewable Energy Laboratory Technical Report, Golden, CO (United States), 2021. 
+
+10. Chakraborty, S.; **Hwang, S.Y.S.**; Botterud, A.; Trancik, J.E. Robust decarbonization pathways require cross-model validation of capacity expansion plans. In preparation.
     
 
 ## Teaching
